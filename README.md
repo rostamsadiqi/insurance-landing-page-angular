@@ -1,7 +1,8 @@
-# InsuranceAngular
+# Insurance Landing Page Angular & BooStrap 5 & flickity and AOS Animation Library
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
 
+Demo Link : https://rostamsadiqi.github.io/insurance-landing-page-angular/
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
