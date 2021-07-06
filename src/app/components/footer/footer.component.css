@@ -1,0 +1,35 @@
+.footer {
+  background: #0862a0;
+  color: white !important;
+  padding-top: 50px;
+  margin-top: 30px;
+}
+
+ul {
+  list-style-type: none !important;
+  list-style: none !important;
+}
+
+a {
+  color: white;
+  padding: 10px 15px 10px 0;
+  text-decoration: none;
+
+}
+
+.fab {
+  font-size: 25px;
+}
+
+
+
+@media (max-width: 576px) {
+  .footer {
+    text-align: center;
+  }
+
+  h1 {
+    padding-bottom: 25px;
+  }
+
+}

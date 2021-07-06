@@ -1,0 +1,16 @@
+<section class="testimoni">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1 class="text-primary  pt-5 pb-3" data-aos="fade-right" >Our Team Members</h1>
+        <p class="pb-5" data-aos="fade-left"> Our amazing family memeber</p>
+      </div>
+      <div class="col-lg-4 mb-5" *ngFor="let team of teamMember">
+        <!-- Card form pages/ card  -->
+        <app-card  [photo]="team.photo" [title]="team.title" [subTitle]="team.subTitle" [dribbble]="team.dribbble"
+          [behance]="team.behance" [instagram]="team.instagram" [linkedin]="team.linkedin">
+        </app-card>
+      </div>
+    </div>
+  </div>
+</section>

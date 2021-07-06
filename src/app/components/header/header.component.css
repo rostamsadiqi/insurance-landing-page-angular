@@ -1,0 +1,30 @@
+nav {
+    background-color: #0862a0;
+
+    height: auto;
+    min-height: 80px;
+}
+
+.navbar-brand {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    font-weight: 600;
+    padding-right: 30px !important ;
+} 
+
+.btn {
+color: #0862a0;
+}
+ 
+.fa-bars {
+    color: white;
+}
+
+.navbar-toggler {
+box-shadow: none;
+}

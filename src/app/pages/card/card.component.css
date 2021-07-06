@@ -1,0 +1,35 @@
+.card {
+  width: 95%;
+}
+
+.card img {
+  border-radius: 20px !important;
+  min-height: 600px !important;
+  max-height: 600px !important;
+}
+
+.card-footer {
+  position: absolute;
+  background: black !important;
+  width: 100%;
+  bottom: 0;
+  opacity: 0.8;
+  border-bottom-left-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+}
+
+.card-footer h5 {
+  font-weight: 700;
+}
+
+.card-footer ul {
+  text-decoration: none !important;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.social-media .fab {
+  font-size: 22px;
+  padding: 0 8px;
+  color: white !important;
+}

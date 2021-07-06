@@ -1,0 +1,114 @@
+
+.testimoni-left .main-img,
+.testimoni-right .main-img {
+  width: 100%;
+  max-width: 350px;
+  height: 450px;
+  border-radius: 20px;
+  animation:  bounceIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;; /* referring directly to the animation's @keyframe declaration */
+}
+
+.card {
+  position: absolute;
+  width: 300px;
+  padding: 15px;
+  border-radius: 20px;
+  animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+
+}
+
+.profiles img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+h5 {
+  font-weight: 800;
+
+}
+
+small {
+  font-weight: normal;
+  font-size: 14px !important;
+  color: rgb(167, 166, 166) !important;
+}
+
+.testimoni-left .card {
+  margin-top: -280px !important;
+  margin-left: 250px;
+}
+
+
+@media (min-width: 1400px) {
+
+  .testimoni-left .card {
+    margin-top: -220px !important;
+    margin-left: 200px;
+    width: 400px;
+  }
+
+  .testimoni-right .card {
+    margin-top: -20px !important;
+    margin-left: 10px;
+    width: 400px;
+  }
+}
+
+
+/* Medium devices (tablets, 768px and lower) */
+@media (max-width: 768px) {
+
+  .testimoni-left .main-img,
+  .testimoni-right .main-img {
+    max-width: 100%;
+    height: 600px;
+  }
+
+  .testimoni-right .main-img {
+    float: right !important;
+  }
+
+  .testimoni-left {
+    margin-bottom: 100px;
+  }
+
+  .testimoni-left .card {
+    margin-top: -160px !important;
+    margin-left: 10px;
+    width: 100%;
+    min-width: 500px !important;
+    max-width: 675px;
+  }
+
+  .testimoni-right .card {
+    margin-top: 440px !important;
+    margin-left: 10px;
+    width: 100%;
+    min-width: 500px !important;
+    max-width: 675px;
+
+  }
+
+}
+
+/* Small devices (landscape phones, 576px and lower) */
+@media (max-width: 576px) {
+
+  .testimoni-left .card {
+    margin-top: -180px !important;
+    margin-left: 7px;
+    min-width: 250px !important;
+    width: 90% !important;
+  }
+
+  .testimoni-right .card {
+    margin-top: 420px !important;
+    margin-left: 7px;
+    min-width: 250px !important;
+    width: 90% !important;
+  }
+
+}
